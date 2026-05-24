@@ -23,6 +23,11 @@ cmake --build build
 cmake --install build --prefix ./out
 ```
 
+## Tests
+```bash
+cmake --build build --target test  # build & run all tests
+```
+
 ## Debug using LLDB
 
 Commands are in `.lldbinit` — auto-executed on launch:

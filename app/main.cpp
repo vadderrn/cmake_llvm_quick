@@ -1,9 +1,8 @@
-#include "a.h"
+#include "include/libapp.h"
 
 #include <iostream>
 
 int main() {
-    std::cout << "APP: Hello World! " << "Return from lib a: 0x" << std::hex
-            << getA() << std::endl;
+    std::cout << buildMessage() << std::endl;
     return 0;
 }
